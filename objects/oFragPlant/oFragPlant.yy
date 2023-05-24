@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sFrag_plant",
-    "path": "sprites/sFrag_plant/sFrag_plant.yy",
+    "name": "sFragPlant",
+    "path": "sprites/sFragPlant/sFragPlant.yy",
   },
   "spriteMaskId": null,
   "visible": true,

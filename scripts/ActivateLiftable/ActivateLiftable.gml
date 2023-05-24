@@ -1,9 +1,10 @@
 /// @arg id
-function ActivateLiftable(){
+function ActivateLiftable(id){
 	if(global.iLifted == noone){
 		PlayerActOutAnimation(sPlayerLift);
-		
-		global.iLifted = argument0;
+		spriteIdle = sPlayerCarrying;
+		spriteRun = sPlayerRunCarrying;
+		global.iLifted = id;
 		
 		with(global.iLifted){
 			lifted = true;

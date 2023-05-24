@@ -7,7 +7,7 @@ if(!global.gamePaused){
 		bounce += (pi * bounceSpeed);
 		if(bounce > pi){
 			bounce -= pi;
-			bounceHeight *= decreasingBounceConstant;
+			bounceHeight *= DECREASINGBOUNCECONSTANT;
 			bounceCount--;
 		}
 		z = sin(bounce) * bounceHeight;
